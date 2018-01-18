@@ -1,8 +1,7 @@
-COMP50CP Final Project
-SharksAndMinnows
+# COMP50CP Final Project: SharksAndMinnows
 Team Members: Matthew Carrington-Fair, Matthew Epstein, David Stern
 
-Usage: 
+## Usage: 
 
 To start nameserver, run the command:
 
@@ -33,14 +32,14 @@ With the IP being the IP address of the host containing the nameserver.
 
 Use WASD controls to move the fish through the ocean and enjoy!
 
-Directories:
+## Directories:
 
 src/: Contains all python source code
 src/models/: Contains text models for shark, fish, and title screen.
 
 documentation/ Contains pdfs containing design progress
 
-Files:
+## Files:
 
 In src/:
 	title.py: A python representation of the title string.
