@@ -14,8 +14,8 @@ This will start a nameserver on your IP address accessible to others.
 Once the server is running, a message will be printed to the terminal,
 giving the IP address of the now running server.
 
-*** Note: Client should not be attempted to run until the affirmation ***
-*** text has been printed to the window running the server.           ***
+*** Note: Client should not be attempted to run until the affirmation ***<br/>
+*** text has been printed to the window running the server.           ***<br/>
 
 To connect to this nameserver, run 
 
@@ -25,11 +25,11 @@ python client.py -i [IP]
 
 With the IP being the IP address of the host containing the nameserver.
 
-*** Note: The client will not work with a terminal screen that is too  ***
-*** small.  We have added a command that should change the window size ***
-*** to 200 x 60.  This seems to work on Macs, but not windows.  If	   ***
-*** the screen does not increase as expected, we reccomend increasing  *** 
-*** the terminal screen to dimensions of 200 x 60.					   ***
+*** Note: The client will not work with a terminal screen that is too  ***<br/>
+*** small.  We have added a command that should change the window size ***<br/>
+*** to 200 x 60.  This seems to work on Macs, but not windows.  If	   ***<br/>
+*** the screen does not increase as expected, we reccomend increasing  *** <br/>
+*** the terminal screen to dimensions of 200 x 60.					   ***<br/>
 
 Use WASD controls to move the fish through the ocean and enjoy!
 
