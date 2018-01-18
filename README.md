@@ -50,10 +50,10 @@ In src/
 A python representation of the title string.
 
 ### fish.py
-Class representation of fish object.<br/>
+Class representation of fish object
 
 ### shark.py
-Class representation of shark object.<br/>
+Class representation of shark object
 
 ### game.py
 Initializes the server for the program, which includes starting
@@ -72,7 +72,7 @@ for a username and whether they will want to wait and play with
 a friend or play solo. From there the program branches into two
 threads, one to handle user input and controlling their fish
 object (obtained through fish.py), and the other to keep a clear
-display (with the help of the curses library). <br/>
+display (with the help of the curses library).
 
 ### board.py
 Contains our Pyro class object. It is the centerpiece of our game,
@@ -83,6 +83,5 @@ the game information and board through read & write operations.
 It is made accessible to both the server and client programs
 throughout the game.
 
-Any other files include the ascii models for both the sharks and minnows, and our ascii art title string which we just decided to include as a python file containing a longstring for simplicity. 
-
+There are also a few additional files containing the ascii art pictures used by the game
 
