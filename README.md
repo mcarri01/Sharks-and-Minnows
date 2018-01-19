@@ -23,7 +23,7 @@ python client.py -i [IP]
 
 With the IP being the IP address of the host containing the nameserver.
 
-**Note: The client will not work with a terminal screen that is too small.  We have added a command that should change the window size to 200 x 60.  This seems to work on Macs, but not windows.  IF the screen does not increase as expected, we recommend increasing the terminal screen to dimensions of 200 x 60.**
+**Note: The client will not work with a terminal screen that is too small.  We have added a command that should change the window size to 200 x 60.  This seems to work on Macs, but not windows.  If the screen does not increase as expected, we recommend increasing the terminal screen to dimensions of 200 x 60.**
 
 Use WASD controls to move the fish through the ocean and enjoy!
 
