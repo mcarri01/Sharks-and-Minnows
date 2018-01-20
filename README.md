@@ -39,7 +39,7 @@ Contains text models for shark, fish, and title screen
 Contains pdfs containing design progress
 
 ## Files
-In src/
+In `src`/
 
 ### title.py
 A python representation of the title string.
