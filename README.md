@@ -29,28 +29,28 @@ Use WASD controls to move the fish through the ocean and enjoy!
 
 ## Directories:
 
-### src/
+### `src/`
 Contains all python source code
 
-### src/models/
+### `src/models/`
 Contains text models for shark, fish, and title screen
 
-### documentation/
+### `documentation/`
 Contains pdfs containing design progress
 
 ## Files
 In `src`/
 
-### title.py
+### `title.py`
 A python representation of the title string.
 
-### fish.py
+### `fish.py`
 Class representation of fish object
 
-### shark.py
+### `shark.py`
 Class representation of shark object
 
-### game.py
+### `game.py`
 Initializes the server for the program, which includes starting
 the Pyro nameserver and setting up our board object to be 
 available to client programs. It does both by launching python
@@ -60,7 +60,7 @@ the game status and creating sharks. Upon successful start-up
 of both the nameserver and the game board, it will output the
 IP that the nameserver is running on so clients can connect to it.
 
-### client.py
+### `client.py`
 Handles the gameplay experience for the users. It requires the 
 IP address of a nameserver, and upon start-up prompts the user
 for a username and whether they will want to wait and play with
@@ -69,7 +69,7 @@ threads, one to handle user input and controlling their fish
 object (obtained through fish.py), and the other to keep a clear
 display (with the help of the curses library).
 
-### board.py
+### `board.py`
 Contains our Pyro class object. It is the centerpiece of our game,
 containing all information regarding the current game state
 (the board itself, whether the game has started, the number
